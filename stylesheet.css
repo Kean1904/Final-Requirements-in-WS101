@@ -1,0 +1,812 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+*
+{
+    font-family: 'Nunito', sans-serif;
+    margin: 0; padding: 0;
+    box-sizing: border-box;
+    outline: none; 
+    border: none;
+    text-decoration: none;
+    text-transform: capitalize;
+    transition: all .2s linear;
+}
+/* Main Header */
+
+.main__navbar
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 1rem;
+    background-color: rgb(79, 58, 29);
+}
+
+.main__link
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+}
+
+.main__logo
+{
+    font-weight: 700;
+    font-size: 25px;
+    margin-left: 10px ;
+    text-transform: capitalize;
+    color: #dc9a64;
+}
+
+.main__link, .link
+{
+    margin: 10px;
+    color: white;
+    transition: all .2s ease;
+    padding: 10px;
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+.link:hover, #active
+{
+    color: black;
+    border-radius: 3px;
+    background-color: rgb(205, 150, 77) ;
+}
+
+/* .main__login
+{
+    font-weight: 500;
+    font-size: 1rem;
+    margin-right: 25px ;
+    padding: 5px;
+    transition: 0.2s;
+}
+
+.main__login:hover
+{
+    background-color: rgb(205, 150, 77);
+    border-radius: 10px;
+    cursor: pointer;
+} */
+
+.search__icon
+{
+    margin-right: 30px;
+    color: white;
+    transition: 0.2s;
+}
+
+.search__icon:hover
+{
+    color: rgb(205, 150, 77);
+    cursor: pointer;
+}
+
+/* Main Hero */
+
+body
+{
+    background-image: url(Image/background.jpeg);
+    background-repeat: repeat-y;
+    background-size: cover;
+    height: 100%;
+}
+
+.main__hero
+{
+    text-align: center;
+    padding-top: 1rem;
+    color: white;
+    height: 350px;
+    /* background-color: #dc9a64; */
+    margin: 20px;
+}
+
+.main__title
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 75px;
+    color: rgb(79, 58, 29) ;
+}
+
+/* lashes */
+.main__content
+{
+    display: grid;
+    grid-template-columns: repeat(4 1fr);
+    grid-template-rows: 50px 100px;
+    background-color: rgb(79, 58, 29);
+    border-radius: 20px;
+    box-shadow: 5px 3px 5px black;
+    text-align: left;
+    height: 1500px;
+    padding: 10px;
+}
+
+.main__about
+{
+    background-color: blanchedalmond;
+    height: 300px;
+    outline: none;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.context1
+{
+    font-size: 40px;
+    color: rgb(79, 58, 29);
+    text-decoration: underline;
+}
+
+.context2
+{
+    display: flex;
+    justify-content: center;
+    color: rgb(79, 58, 29);
+    padding: 5px;
+    margin-left: 300px;
+    height: 200px;
+    width: 200px;
+    background-color: whitesmoke;
+    border-radius: 5px;
+    box-shadow: 5px 4px 5px black;
+    cursor: pointer;
+}
+
+.img2
+{
+    margin-top: 30px;
+    margin-left: -70px;
+    width: 165px;
+    height: 150px;
+}
+
+.classic
+{
+    text-decoration: underline;
+    font-weight: 600;
+    font-size: 20px;
+    text-transform: capitalize;
+}
+
+.context3
+{
+    display: flex;
+    justify-content: center;
+    color: rgb(79, 58, 29);
+    padding: 5px;
+    margin-left: 550px;
+    margin-top: -200px;
+    height: 200px;
+    width: 200px;
+    background-color: whitesmoke;
+    border-radius: 5px;
+    box-shadow: 5px 4px 5px black;
+    cursor: pointer;
+}
+
+.hybrid
+{
+    text-decoration: underline;
+    font-weight: 600;
+    font-size: 20px;
+    text-transform: capitalize;
+}
+
+.img3
+{
+    margin-top: 30px;
+    margin-left: -70px;
+    width: 165px;
+    height: 150px;
+}
+
+.context4
+{
+    display: flex;
+    justify-content: center;
+    color: rgb(79, 58, 29);
+    padding: 5px;
+    margin-left: 800px;
+    margin-top: -200px;
+    height: 200px;
+    width: 200px;
+    background-color: whitesmoke;
+    border-radius: 5px;
+    box-shadow: 5px 4px 5px black;
+    cursor: pointer;
+}
+
+.volume
+{
+    text-decoration: underline;
+    font-weight: 600;
+    font-size: 20px;
+    text-transform: capitalize;
+}
+
+.img4
+{
+    margin-top: 30px;
+    margin-left: -70px;
+    width: 165px;
+    height: 150px;
+}
+
+.context5
+{
+    display: flex;
+    justify-content: center;
+    color: rgb(79, 58, 29);
+    padding: 5px;
+    margin-left: 1050px;
+    margin-top: -200px;
+    height: 200px;
+    width: 200px;
+    background-color: whitesmoke;
+    border-radius: 5px;
+    box-shadow: 5px 4px 5px black;
+    cursor: pointer;
+}
+
+.infill
+{
+    text-decoration: underline;
+    font-weight: 600;
+    font-size: 20px;
+    text-transform: capitalize;  
+}
+
+.img5
+{
+    margin-top: 30px;
+    margin-left: -60px;
+    width: 165px;
+    height: 150px;
+}
+
+.context6
+{
+    display: flex;
+    justify-content: center;
+    color: rgb(79, 58, 29);
+    padding: 5px;
+    margin-left: 1300px;
+    margin-top: -200px;
+    height: 200px;
+    width: 200px;
+    background-color: whitesmoke;
+    border-radius: 5px;
+    box-shadow: 5px 4px 5px black;
+    cursor: pointer;
+}
+
+.cat-eye
+{
+    text-decoration: underline;
+    font-weight: 600;
+    font-size: 20px;
+    text-transform: capitalize; 
+}
+
+.img6
+{
+    margin-top: 30px;
+    margin-left: -75px;
+    width: 165px;
+    height: 150px; 
+}
+
+/* lashes end */
+
+/* nail */
+.main__about2
+{
+    background-color: blanchedalmond;
+    height: 450px;
+    outline: none;
+    border-radius: 10px;
+    text-align: center;
+    margin-top: 265px;
+}
+
+.nail
+{
+    font-size: 40px;
+    color: rgb(79, 58, 29);
+    text-decoration: underline;
+}
+
+.nail1
+{
+    display: flex;
+    justify-content: center;
+    color: rgb(79, 58, 29);
+    padding: 5px;
+    margin-left: 150px;
+    height: 300px;
+    width: 350px;
+    background-color: whitesmoke;
+    border-radius: 10px;
+    box-shadow: 5px 4px 5px black;
+    cursor: pointer;
+}
+
+.img7
+{
+    margin-top: 40px;
+    margin-left: -120px;
+    width: 315px;
+    height: 230px; 
+}
+
+.gel-polish
+{
+    font-size: 25px;
+    color: rgb(79, 58, 29);
+    text-decoration: underline; 
+    
+}
+
+.nail2
+{
+    display: flex;
+    justify-content: center;
+    color: rgb(79, 58, 29);
+    padding: 5px;
+    margin-left: 550px;
+    margin-top: -300px;
+    height: 300px;
+    width: 350px;
+    background-color: whitesmoke;
+    border-radius: 10px;
+    box-shadow: 5px 4px 5px black;
+    cursor: pointer;
+}
+
+.soft-gel
+{
+    font-size: 25px;
+    color: rgb(79, 58, 29);
+    text-decoration: underline; 
+}
+
+.img8
+{
+    margin-top: 40px;
+    margin-left: -225px;
+    width: 315px;
+    height: 230px; 
+}
+
+.nail3
+{
+    display: flex;
+    justify-content: center;
+    color: rgb(79, 58, 29);
+    padding: 5px;
+    margin-left: 950px;
+    margin-top: -300px;
+    height: 300px;
+    width: 350px;
+    background-color: whitesmoke;
+    border-radius: 10px;
+    box-shadow: 5px 4px 5px black;
+    cursor: pointer; 
+}
+
+.toe-nail
+{
+    font-size: 25px;
+    color: rgb(79, 58, 29);
+    text-decoration: underline; 
+}
+
+.img9
+{
+    margin-top: 40px;
+    margin-left: -225px;
+    width: 315px;
+    height: 230px;
+}
+
+.nail4
+{
+    display: flex;
+    justify-content: center;
+    color: rgb(79, 58, 29);
+    padding: 5px;
+    margin-left: 1350px;
+    margin-top: -300px;
+    height: 300px;
+    width: 350px;
+    background-color: whitesmoke;
+    border-radius: 10px;
+    box-shadow: 5px 4px 5px black;   
+    cursor: pointer;
+}
+
+.infill1
+{
+    font-size: 25px;
+    color: rgb(79, 58, 29);
+    text-decoration: underline; 
+}
+
+.img10
+{
+    margin-top: 40px;
+    margin-left: -70px;
+    width: 315px;
+    height: 230px;
+}
+
+/* nail end */
+
+/* Information*/
+
+.information
+{
+    display: flex;
+    margin-top: 700px;
+    padding: 35px;
+    /* border: solid; */
+    width: 100%;
+}
+
+.content1, img
+{
+    margin-top: 5px;
+    border-radius: 15px;
+}
+.content2
+{
+    margin: 10px;
+    padding: 10px;
+    background: blanchedalmond;
+    color: rgb(79, 58, 29);
+    width: 100%;
+    height: 450px;
+    border-radius: 15px;
+}
+
+.text1
+{
+    font-size: 50px;
+}
+p{font-size: 30px;
+text-transform: none;}
+
+/* information end*/
+
+/* footer */
+
+.footer
+{
+    display: flex;
+    margin-top: 1300px;
+    padding: 20px;
+    bottom: 0;
+    background-color: #dc9a64;
+    width: 100%;
+}
+
+.footer--name
+{
+    text-align: center;
+    font-size: 40px;
+    width: 200vh;
+    /* border: solid; */
+}
+
+.footer--link, .footer__link
+{
+    text-align: center;
+    font-size: 25px;
+    color: white;
+}
+
+.footer__link:hover
+{
+    color:  rgb(79, 58, 29);
+}
+
+.footer--copy, .footer--right, .footer-right
+{
+    text-align: center;
+    font-size: 25px;
+    margin: 10px;
+}
+
+.socmed
+{
+    font-size: 40px;
+}
+#facebook:hover, #instagram:hover, #tiktok:hover, #twitter:hover
+{   
+    color: blanchedalmond;
+    cursor: pointer;
+}
+
+/* footer end */
+
+/* About Page--Start Here!*/
+
+.about__main__hero
+{
+    position: relative;
+    margin: 10px;
+    padding: 0;
+}
+
+.about__title
+{
+    display: flex;
+    justify-content: center;
+    font-size: 70px;
+    color: rgb(79, 58, 29);
+    font-weight: 700;
+    margin: 50px;
+}
+
+.about__container
+{
+    position: absolute;
+    background-color: rgb(79, 58, 29);
+    width: 100%;
+    height: 1100px;
+    border-radius: 20px;
+}
+.about__owner
+{
+    display: flex;
+    background-color:blanchedalmond ;
+    margin: 10px;
+    border-radius: 20px;
+}
+
+#Owner
+{
+    position: relative;
+    margin: 30px 30px;
+    width: 500px;
+    height: 500px;
+    box-shadow: 5px 5px 3px solid burlywood;
+    border: solid 10px whitesmoke;
+}
+
+.about__owenerinfo
+{
+    margin-top: 30px;
+    /* border: solid; */
+    width: 250vh;
+}
+
+.owner__name
+{
+    font-size: 75px;
+    text-decoration: underline;
+}
+
+.owner__info
+{
+    font-size: 25px;
+    text-transform: none;
+}
+
+.about__location
+{
+    display: flex;
+    background-color:blanchedalmond ;
+    margin: 10px;
+    border-radius: 20px;
+}
+
+.location__text
+{
+    position: relative;
+    margin: 30px 30px;
+    font-size: 35px;
+}
+
+.img11
+{
+    margin-top: 27px;
+    height: 500px;
+    width: 900px;
+    margin: 5px;
+}
+
+/* About end */
+
+/* Service--page start here*/
+
+.service__title
+{
+    text-align: center;
+    margin: 10px;
+    font-size: 5rem;
+    color:  rgb(79, 58, 29);
+}
+
+.main__container__service
+{
+    position: absolute;
+    background-color: rgb(79, 58, 29);
+    width: 100%;
+    height:2800px;
+    border-radius: 20px;
+}
+
+.info__container
+{
+    position: relative;
+    margin: 20px;
+    font-size: 50px;
+    text-decoration: none;
+    color: white;
+}
+
+.buttons
+{   
+    position: absolute;
+    margin: 25px;
+    padding: 9px;
+    border-radius: 10px;
+    right: 0;
+    font-size: 40px;
+    transition: 0.4s ease;
+    background: whitesmoke;
+    cursor: pointer;
+    outline: none;
+}
+
+.buttons:hover
+{
+    background-color: rgb(79, 58, 29);
+    color: white;
+}
+
+/* Nails */
+
+/* Classic */
+.classic__container
+{
+    position: absolute;
+    background: #dc9a64;
+    width: 100%;
+    height: 250px;
+    border: solid 10px black;
+    border-radius: 20px;
+    padding: 13px;
+    margin: 12px;
+}
+
+/* Hybrid */
+
+.hybrid__container
+{
+    position: absolute;
+    background: #dc9a64;
+    width: 100%;
+    height: 250px;
+    border: solid 10px black;
+    border-radius: 20px;
+    padding: 13px;
+    margin: 12px;
+    margin-top: 300px;
+}
+
+/* Volume */
+
+.volume__container
+{
+    position: absolute;
+    background: #dc9a64;
+    width: 100%;
+    height: 250px;
+    border: solid 10px black;
+    border-radius: 20px;
+    padding: 13px;
+    margin: 12px;
+    margin-top: 600px;
+}
+
+/* Infill */
+
+.infill__container
+{
+    position: absolute;
+    background: #dc9a64;
+    width: 100%;
+    height: 250px;
+    border: solid 10px black;
+    border-radius: 20px;
+    padding: 13px;
+    margin: 12px;
+    margin-top: 900px;
+}
+
+/* Cat-eye */
+
+.cateye__container
+{
+    position: absolute;
+    background: #dc9a64;
+    width: 100%;
+    height: 250px;
+    border: solid 10px black;
+    border-radius: 20px;
+    padding: 13px;
+    margin: 12px;
+    margin-top: 1200px;
+}
+
+/* Nails */
+
+/* Gel-Polish */
+
+.gel-polish__container
+{
+    position: absolute;
+    background: #dc9a64;
+    width: 100%;
+    height: 250px;
+    border: solid 10px black;
+    border-radius: 20px;
+    padding: 13px;
+    margin: 12px;
+    margin-top: 1500px;
+}
+
+/* Soft-Gel */
+
+.soft-gel__container
+{
+    position: absolute;
+    background: #dc9a64;
+    width: 100%;
+    height: 250px;
+    border: solid 10px black;
+    border-radius: 20px;
+    padding: 13px;
+    margin: 12px;
+    margin-top: 1800px;
+}
+
+/* Toe-nail */
+
+.toe-nail__container
+{
+    position: absolute;
+    background: #dc9a64;
+    width: 100%;
+    height: 250px;
+    border: solid 10px black;
+    border-radius: 20px;
+    padding: 13px;
+    margin: 12px;
+    margin-top: 2100px;
+}
+
+/* Infill */
+
+.infill-nail__container
+{
+    position: absolute;
+    background: #dc9a64;
+    width: 100%;
+    height: 250px;
+    border: solid 10px black;
+    border-radius: 20px;
+    padding: 13px;
+    margin: 12px;
+    margin-top: 2400px;
+}
